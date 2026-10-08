@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>岳朝泉 (Brady) (Chao-Cyuan Yue) - 產品專案管理 (Product Project Management, PPM)</title>
+  <meta name="description" content="個性外向、善於溝通與解決問題。現於鴻璟科技 PPM 在職學習專案流程，結合 AI 實務研究與 20 萬人科技社群經驗">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    code, pre { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-blue-600 selection:text-white">
+  <!-- Top Navigation Bar -->
+  <header class="border-b border-zinc-800/80 bg-zinc-950/80 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#top" class="font-bold text-base text-white hover:text-blue-400 transition-colors flex items-center gap-2">
+        <span>岳朝泉 (Brady)</span>
+        <span class="text-xs font-mono text-zinc-400 font-normal">(Chao-Cyuan Yue)</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-zinc-400">
+        <a href="#projects" class="hover:text-white transition-colors">專案與著作</a>
+        <a href="#experience" class="hover:text-white transition-colors">經歷與歷程</a>
+        <a href="#skills" class="hover:text-white transition-colors">專業技能</a>
+        <a href="#contact" class="hover:text-white transition-colors">聯絡我</a>
+      </nav>
+      <a href="https://github.com/ChaoCyuanYue" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 text-xs font-medium bg-zinc-100 text-zinc-900 rounded-lg hover:bg-zinc-200 transition-colors">GitHub</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-6xl mx-auto px-6">
+    <section id="top" class="pt-12 pb-16 md:pt-16 md:pb-20">
+      <div class="p-6 sm:p-8 rounded-3xl border border-zinc-800 bg-zinc-900/60 backdrop-blur-md shadow-2xl mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+          <!-- Portrait photo directly next to bio -->
+          <div class="md:col-span-5 lg:col-span-4">
+            <div class="relative rounded-2xl border-2 border-cyan-500/30 bg-zinc-950 p-2 shadow-2xl shadow-blue-500/10">
+              <div class="relative aspect-4/5 sm:aspect-3/4 rounded-xl overflow-hidden bg-zinc-900 flex items-center justify-center">
+                <img src="./avatar.jpg" alt="岳朝泉 (Brady)" onerror="this.src='./avatar.svg'" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-black/20 pointer-events-none"></div>
+                <div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-zinc-900/85 backdrop-blur border border-white/10 text-[11px] font-mono text-cyan-300">
+                  <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 mr-1 animate-pulse"></span>
+                  Lionic PPM · 2026
+                </div>
+                <div class="absolute bottom-3 left-3 right-3 text-white">
+                  <h3 class="font-bold text-base">岳朝泉 (Brady)</h3>
+                  <p class="text-xs text-cyan-300 font-mono">Chao-Cyuan Yue · @ChaoCyuanYue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Self-Intro Summary -->
+          <div class="md:col-span-7 lg:col-span-8 space-y-4">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950/60 border border-blue-800/60 text-xs text-blue-300">
+              <span class="w-2 h-2 rounded-full bg-blue-500 inline-block animate-pulse"></span>
+              <span class="font-semibold">現職：鴻璟科技 (Lionic Corporation) · 產品專案管理 (PPM) 部門 (2026 - 現在 · 在職學習中)</span>
+            </div>
+
+            <div class="text-xs uppercase font-mono tracking-widest text-zinc-500">
+              Chao-Cyuan Yue (Brady) · 岳朝泉
+            </div>
+
+            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white leading-tight">
+              嗨，我是 岳朝泉 (Brady)。<br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-cyan-300 text-lg sm:text-xl lg:text-2xl font-semibold block mt-1.5">個性外向、善於溝通與解決問題。現於鴻璟科技 PPM 在職學習專案流程，結合 AI 實務研究與 20 萬人科技社群經驗</span>
+            </h1>
+
+            <p class="text-zinc-300 leading-relaxed text-sm sm:text-base">個性外向、善於溝通協調，面對問題總是主動尋找最佳解決方案。目前在職於鴻璟科技 (Lionic Corporation) 產品專案管理 (Product Project Management, PPM) 部門，作為新進成員正持續學習並熟悉軟硬體專案管理流程，主動協助跨團隊溝通與推進。碩士就讀於國立臺南大學資工所，隸屬 OASE Lab. (知識本體應用暨軟體工程實驗室) 與 NCI-R Lab. (自然溝通智慧與機器人實驗室)，由李健興教授指導，共同參與「台英語AI學伴」研究，參與撰寫 2 篇期刊論文與 5 篇國際會議論文，並於國內多所中小學進行場域實務驗證。同時長期深耕科技社群近十年，經營華為 (HUAWEI)、榮耀 (HONOR) 以及三星 (SAMSUNG) 等品牌粉絲社群，成員總數達 20 萬人以上。</p>
+
+            <!-- Social Matrix -->
+            <div class="pt-1 flex flex-wrap items-center gap-2">
+              <a href="https://www.facebook.com/Chao.Cyuan.Yue/" target="_blank" class="px-3 py-1.5 text-xs font-medium rounded-lg border border-zinc-800 bg-zinc-900 hover:border-blue-500 hover:text-blue-400 transition-colors">Facebook</a>
+              <a href="https://www.instagram.com/yue_cyuan/" target="_blank" class="px-3 py-1.5 text-xs font-medium rounded-lg border border-zinc-800 bg-zinc-900 hover:border-pink-500 hover:text-pink-400 transition-colors">Instagram</a>
+              <a href="https://www.linkedin.com/in/chao-cyuan-yue" target="_blank" class="px-3 py-1.5 text-xs font-medium rounded-lg border border-zinc-800 bg-zinc-900 hover:border-blue-500 hover:text-blue-400 transition-colors">LinkedIn</a>
+              <a href="https://github.com/ChaoCyuanYue" target="_blank" class="px-3 py-1.5 text-xs font-medium rounded-lg border border-zinc-800 bg-zinc-900 hover:border-zinc-600 hover:text-white transition-colors">GitHub</a>
+              <a href="https://yuecyuan01.pixnet.net/blog" target="_blank" class="px-3 py-1.5 text-xs font-medium rounded-lg border border-zinc-800 bg-zinc-900 hover:border-sky-500 hover:text-sky-400 transition-colors">3C 部落格</a>
+              <a href="mailto:brady910108@gmail.com" class="px-3 py-1.5 text-xs font-medium rounded-lg border border-zinc-800 bg-zinc-900 hover:border-emerald-500 hover:text-emerald-400 transition-colors">Email</a>
+            </div>
+
+            <div class="pt-2 flex items-center gap-3">
+              <a href="#projects" class="px-5 py-2 text-xs sm:text-sm font-semibold bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">瀏覽成果與著作</a>
+              <a href="#contact" class="px-4 py-2 text-xs sm:text-sm font-medium border border-zinc-800 hover:bg-zinc-900 rounded-lg text-zinc-300 transition-colors">聯絡我</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proof metrics -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="p-4 bg-zinc-900/60 rounded-2xl border border-zinc-800/80">
+          <span class="block text-2xl font-bold text-white">20 萬+ 人</span>
+          <span class="text-xs text-zinc-400">華為/榮耀/三星 品牌社群</span>
+        </div>
+        <div class="p-4 bg-zinc-900/60 rounded-2xl border border-zinc-800/80">
+          <span class="block text-2xl font-bold text-white">7 篇論文</span>
+          <span class="text-xs text-zinc-400">參與撰寫 2期刊+5會議</span>
+        </div>
+        <div class="p-4 bg-zinc-900/60 rounded-2xl border border-zinc-800/80">
+          <span class="block text-2xl font-bold text-white">中 · 英 · 台</span>
+          <span class="text-xs text-zinc-400">多語言溝通交流能力</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 border-t border-zinc-800/80">
+      <div class="mb-10">
+        <span class="text-xs font-semibold tracking-wider uppercase text-blue-400">Projects & Publications</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1">01. 核心專案與學術著作</h2>
+        <p class="text-sm text-zinc-400 mt-1 max-w-2xl">包含鴻璟科技 (Lionic) PPM 產品管理實務學習、國立臺南大學李健興教授「台英語AI學伴」（參與撰寫 2 篇期刊與 5 篇國際會議論文），以及華為、榮耀、三星品牌逾 20 萬人科技社群經營。</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        
+        <article class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/50 flex flex-col justify-between hover:border-zinc-700 transition-all">
+          <div>
+            <div class="flex justify-between items-center text-xs text-zinc-500 mb-2">
+              <span class="capitalize">pm · 2026 - 現在</span>
+              <span class="text-blue-400 font-semibold">2026 起在職學習 · 產品專案管理 (PPM)</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">鴻璟科技 (Lionic) 產品專案管理 (PPM) 流程學習與協同</h3>
+            <p class="text-xs text-blue-400 mt-0.5 mb-2">2026 在職積極學習軟硬體產品專案管理流程，協助團隊時程追蹤與跨部門溝通協作</p>
+            <p class="text-sm text-zinc-300 mb-4 leading-relaxed">於鴻璟科技 PPM 部門持續在職學習產品專案管理實務。以認真負責與主動好學態度，熟悉公司專案流程，協助整理需求細節、追蹤研發測試進度，並在實務中累積專案推展經驗。</p>
+          </div>
+          <div class="pt-4 border-t border-zinc-800/60 flex items-center justify-between text-xs">
+            <span class="font-mono text-zinc-400">專案管理流程 (學習中) · 需求整理與彙整 · 跨部門溝通協調 · 時程追蹤</span>
+            <div class="flex gap-3">
+              
+            </div>
+          </div>
+        </article>
+        
+        <article class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/50 flex flex-col justify-between hover:border-zinc-700 transition-all">
+          <div>
+            <div class="flex justify-between items-center text-xs text-zinc-500 mb-2">
+              <span class="capitalize">ai · 2024 - 2026</span>
+              <span class="text-blue-400 font-semibold">參與撰寫 2 篇期刊 + 5 篇國際會議論文</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">台英語AI學伴與跨國人機協同學習推廣</h3>
+            <p class="text-xs text-blue-400 mt-0.5 mb-2">參與李健興教授跨國研究計畫，參與撰寫 2 篇期刊 + 5 篇國際會議論文，實施校園場域實證</p>
+            <p class="text-sm text-zinc-300 mb-4 leading-relaxed">參與國立臺南大學 OASE Lab. 與 NCI-R Lab. 李健興教授團隊之「台英語AI學伴」研究計畫。協助模型建置、系統測試，並親赴國內多所國中小學校園進行場域教學驗證與成果推廣。</p>
+          </div>
+          <div class="pt-4 border-t border-zinc-800/60 flex items-center justify-between text-xs">
+            <span class="font-mono text-zinc-400">Python · Generative AI · LLM 應用 · 台英語多語言互動</span>
+            <div class="flex gap-3">
+              
+            </div>
+          </div>
+        </article>
+        
+        <article class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/50 flex flex-col justify-between hover:border-zinc-700 transition-all">
+          <div>
+            <div class="flex justify-between items-center text-xs text-zinc-500 mb-2">
+              <span class="capitalize">community · 2015 - 現在</span>
+              <span class="text-blue-400 font-semibold">華為/榮耀/三星社群 · 20 萬人以上</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">手機品牌粉絲社群 (華為、榮耀、三星) 運營管理</h3>
+            <p class="text-xs text-blue-400 mt-0.5 mb-2">深耕 3C 科技社群近 10 年，成員總數 20 萬人以上，具備豐富活動策劃與用戶溝通經驗</p>
+            <p class="text-sm text-zinc-300 mb-4 leading-relaxed">長期擔任華為 (HUAWEI)、榮耀 (HONOR) 以及三星 (SAMSUNG) 等手機品牌粉絲社群核心管理者，社群成員總數超過 20 萬人。</p>
+          </div>
+          <div class="pt-4 border-t border-zinc-800/60 flex items-center justify-between text-xs">
+            <span class="font-mono text-zinc-400">社群營運管理 · 實體活動企劃與主持 · 品牌合作互惠 · 用戶反饋提煉</span>
+            <div class="flex gap-3">
+              
+            </div>
+          </div>
+        </article>
+        
+        <article class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/50 flex flex-col justify-between hover:border-zinc-700 transition-all">
+          <div>
+            <div class="flex justify-between items-center text-xs text-zinc-500 mb-2">
+              <span class="capitalize">community · 2021 - 現在</span>
+              <span class="text-blue-400 font-semibold">長期累積數十篇熱門評測文案</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">科技產品深度評測與開箱內容創作專案</h3>
+            <p class="text-xs text-blue-400 mt-0.5 mb-2">撰寫旗艦手機、耳機配件等開箱評測，真實體驗結合規格說明</p>
+            <p class="text-sm text-zinc-300 mb-4 leading-relaxed">撰寫數十篇旗艦手機、音訊配件、保護周邊深度開箱文章，結合使用者情境與客觀規格解析。</p>
+          </div>
+          <div class="pt-4 border-t border-zinc-800/60 flex items-center justify-between text-xs">
+            <span class="font-mono text-zinc-400">內容企劃 · 產品開箱 · 體驗評測 · 圖文編排</span>
+            <div class="flex gap-3">
+              <a href="https://yuecyuan01.pixnet.net/blog" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">文章連結</a>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+
+      <!-- Academic Publications in HTML -->
+      <div class="p-6 sm:p-8 rounded-2xl border border-zinc-800 bg-zinc-900/40 space-y-6">
+        <div class="pb-3 border-b border-zinc-800">
+          <h3 class="text-base font-bold text-white">
+            參與撰寫學術著作 (Academic Publications · 7 篇)
+          </h3>
+          <p class="text-xs text-zinc-400 mt-0.5">國立臺南大學 OASE Lab. 與 NCI-R Lab. · 李健興教授研究團隊 · 共同參與撰寫</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-xs font-semibold text-blue-400 uppercase tracking-wider">期刊論文 (Journal Articles · 參與撰寫 2 篇)</h4>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-blue-400 font-mono"><span>[J1] 期刊論文</span><span>2026</span></div>
+            <div class="text-sm font-semibold text-white">"LLM-based fuzzy agent for human-machine interaction in STEM education and Taiwanese-English co-learning application"</div>
+            <div class="text-xs font-mono text-zinc-400">C. S. Lee, M. H. Wang, Y. H. Lee, C. C. Yue, S. C. Yang, Y. J. Lin, Y. Nojima, and M. Reformat</div>
+            <div class="text-xs text-zinc-500 italic">International Journal of Fuzzy Systems, 2026.</div>
+          </div>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-blue-400 font-mono"><span>[J2] 期刊論文</span><span>2026</span></div>
+            <div class="text-sm font-semibold text-white">"生成式人工智慧與量子計算智慧工具於台英語人機互動學習應用"</div>
+            <div class="text-xs font-mono text-zinc-400">李健興, 王美慧, 岳朝泉, 林奕君, and 楊勝期</div>
+            <div class="text-xs text-zinc-500 italic">前瞻科技與管理, vol. 14, no. 2, pp. 64-92, 2026.</div>
+          </div>
+        </div>
+
+        <div class="space-y-3 pt-3">
+          <h4 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">國際會議論文 (International Conferences · 參與撰寫 5 篇)</h4>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-emerald-400 font-mono"><span>[C1] 國際會議</span><span>Hsinchu, Taiwan · 2024</span></div>
+            <div class="text-sm font-semibold text-white">"CAO robot for Taiwanese/English knowledge graph application"</div>
+            <div class="text-xs font-mono text-zinc-400">C. S. Lee, M. H. Wang, G. Y. Tseng, C. C. Yue, H. C. Hsieh, and M. Reformat</div>
+            <div class="text-xs text-zinc-500 italic">The 27th International Conference of the Oriental COCOSDA (O-COCOSDA 2024), 2024.</div>
+          </div>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-emerald-400 font-mono"><span>[C2] 國際會議</span><span>Banff, Canada · 2025</span></div>
+            <div class="text-sm font-semibold text-white">"Quantum fuzzy inference engine with generative AI and TAIDE KG for Taiwanese/English co-learning"</div>
+            <div class="text-xs font-mono text-zinc-400">C. S. Lee, M. H. Wang, C. C. Yue, G. Y. Teseng, and Y. Nojima</div>
+            <div class="text-xs text-zinc-500 italic">2025 IFSA World Congress and NAFIPS Annual Meeting (IFSA/NAFIPS 2025).</div>
+          </div>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-emerald-400 font-mono"><span>[C3] 國際會議</span><span>Vienna, Austria · 2025</span></div>
+            <div class="text-sm font-semibold text-white">"LLM-based intelligent evaluation agent with knowledge graph construction for human-machine interactive learning"</div>
+            <div class="text-xs font-mono text-zinc-400">C. S. Lee, M. H. Wang, G. Y. Tseng, C. C. Yue, C. H. Lin, Y. J. Lin, and N. Kubota</div>
+            <div class="text-xs text-zinc-500 italic">2025 IEEE International Conference on Systems, Man, and Cybernetics (IEEE SMC 2025).</div>
+          </div>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-emerald-400 font-mono"><span>[C4] 國際會議</span><span>Hsinchu, Taiwan · 2025</span></div>
+            <div class="text-sm font-semibold text-white">"Integrating fuzzy evaluation agents and LLM-based robots for multilingual interactive applications"</div>
+            <div class="text-xs font-mono text-zinc-400">C. S. Lee, M. H. Wang, C. C. Yue, C. H. Lin, S. C. Yang, Y. J. Lin, N. Kubota, and E. Sato-Shimokawara</div>
+            <div class="text-xs text-zinc-500 italic">2025 International Conference on Fuzzy Theory and Its Applications (iFUZZY 2025).</div>
+          </div>
+          <div class="p-4 bg-zinc-950/60 rounded-xl border border-zinc-800/80 space-y-1">
+            <div class="flex justify-between text-xs text-emerald-400 font-mono"><span>[C5] 國際會議</span><span>Maastricht, the Netherlands · 2026</span></div>
+            <div class="text-sm font-semibold text-white">"Fuzzy inference–driven knowledge modeling for LLM-assisted human–machine co-learning"</div>
+            <div class="text-xs font-mono text-zinc-400">C. S. Lee, M. H. Wang, C. C. Yue, S. C. Yang, Y. Nojima, N. Masuyama, T. Konishi, and R. Saga</div>
+            <div class="text-xs text-zinc-500 italic">2026 IEEE World Congress on Computational Intelligence (IEEE WCCI 2026).</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 border-t border-zinc-800/80">
+      <div class="mb-10">
+        <span class="text-xs font-semibold tracking-wider uppercase text-blue-400">Career & Journey</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1">02. 經歷與歷程</h2>
+        <p class="text-sm text-zinc-400 mt-1 max-w-xl">從科技社群經營、國立臺南大學 OASE Lab. 與 NCI-R Lab. AI 學術研發推廣，到鴻璟科技 (Lionic) PPM 產品專案管理之實務歷程。</p>
+      </div>
+
+      <div class="space-y-10 pl-4 border-l border-zinc-800">
+        
+        <div class="relative pl-6">
+          <div class="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-blue-500 ring-4 ring-blue-500/20"></div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-1 gap-1">
+            <h3 class="font-bold text-white flex items-center gap-2">
+              <span>產品專案管理 (Product Project Management, PPM)</span>
+              <span class="text-[10px] bg-blue-950 text-blue-400 px-2 py-0.5 rounded font-semibold">2026 起在職學習</span>
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">2026 - 現在 (在職學習中)</span>
+          </div>
+          <div class="text-xs text-zinc-400 mb-2">鴻璟科技股份有限公司 (Lionic Corporation) · 產品專案管理 (PPM) 部門 · 台灣 (新竹 / 台南)</div>
+          <p class="text-sm text-zinc-300 mb-3 leading-relaxed">於鴻璟科技 PPM 部門負責產品專案管理工作。2026 年進入公司作為新進團隊成員，持續學習與熟悉專案推進流程，協助跨部門溝通與時程追蹤。</p>
+          <ul class="text-xs text-zinc-400 space-y-1.5 mb-2">
+            <li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>在職深入學習公司網通與資安產品專案管理運作流程</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>協助跨研發 (R&D)、測試與業務團隊之日常進度追蹤與會議記錄對齊</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>發揮外向善於溝通特質，面對問題主動排查細節並尋找解決方案</span></li>
+          </ul>
+        </div>
+        
+        <div class="relative pl-6">
+          <div class="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-zinc-600"></div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-1 gap-1">
+            <h3 class="font-bold text-white flex items-center gap-2">
+              <span>AI 應用研發與場域推廣 / 講師</span>
+              
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">2024 - 2026</span>
+          </div>
+          <div class="text-xs text-zinc-400 mb-2">國立臺南大學 OASE Lab. 與 NCI-R Lab. · 李健興教授研究團隊 · 台南市東區</div>
+          <p class="text-sm text-zinc-300 mb-3 leading-relaxed">參與「台英語AI學伴」產學與前瞻計畫，共同參與撰寫 2 篇期刊與 5 篇國際會議論文，協助系統測試與校園現場教學驗證。</p>
+          <ul class="text-xs text-zinc-400 space-y-1.5 mb-2">
+            <li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>參與撰寫 2 篇期刊論文與 5 篇國際會議論文，理論與實務並重</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>深入國內多所國中小學校園擔任推廣講師，引導學童與台英語AI學伴人機協同互動</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>隨指導教授參與海外研究與國際學術研討會交流活動</span></li>
+          </ul>
+        </div>
+        
+        <div class="relative pl-6">
+          <div class="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-blue-500 ring-4 ring-blue-500/20"></div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-1 gap-1">
+            <h3 class="font-bold text-white flex items-center gap-2">
+              <span>科技社群創辦管理者 / 品牌合作主理人</span>
+              <span class="text-[10px] bg-blue-950 text-blue-400 px-2 py-0.5 rounded font-semibold">2026 起在職學習</span>
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">2015 - 現在 (近 10 年)</span>
+          </div>
+          <div class="text-xs text-zinc-400 mb-2">華為 (HUAWEI) · 榮耀 (HONOR) · 三星 (SAMSUNG) 粉絲社群  · 全台活動 / 線上社群</div>
+          <p class="text-sm text-zinc-300 mb-3 leading-relaxed">長期負責華為、榮耀以及三星等各大手機品牌粉絲社群（總人數逾 20 萬人）之營運、內容企劃、用戶交流與品牌活動籌備。</p>
+          <ul class="text-xs text-zinc-400 space-y-1.5 mb-2">
+            <li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>運營管理華為、榮耀、三星等品牌社群，累積逾 20 萬名粉絲成員</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>與多家手機品牌與配件廠商合作廣告行銷、產品開箱評測與活動合作</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>獲廠商邀請全額贊助舉辦線下實體粉絲見面會，擔任籌備者、講師與主持人</span></li>
+          </ul>
+        </div>
+        
+        <div class="relative pl-6">
+          <div class="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-zinc-600"></div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-1 gap-1">
+            <h3 class="font-bold text-white flex items-center gap-2">
+              <span>銷售人員 / 實習生</span>
+              
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">2021/3 - 2023/12 (2年10個月)</span>
+          </div>
+          <div class="text-xs text-zinc-400 mb-2">利光通訊有限公司  · 台南市東區</div>
+          <p class="text-sm text-zinc-300 mb-3 leading-relaxed">擔任通訊門市第一線銷售人員，負責智慧型手機、資費方案與周邊配件解說，並提供手機與電腦硬體基本除錯。</p>
+          <ul class="text-xs text-zinc-400 space-y-1.5 mb-2">
+            <li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>培養出色的口語表達、同理心與臨場應變能力，建立高度顧客信任感</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>深刻理解終端使用者需求，養成將複雜科技規格白話說明的轉譯能力</span></li><li class="flex items-start gap-1.5"><span class="text-blue-400">✓</span><span>協助門市電腦與軟硬體設備基本維護與操作設定</span></li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 border-t border-zinc-800/80">
+      <div class="mb-10">
+        <span class="text-xs font-semibold tracking-wider uppercase text-blue-400">Skills & Competencies</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1">03. 專業技能與核心特質</h2>
+        <p class="text-sm text-zinc-400 mt-1 max-w-xl">涵蓋產品專案管理流程學習、人工智慧學伴應用實務、20 萬人科技社群營運，以及具備外向溝通與問題解決特質。</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 space-y-4">
+          <h3 class="text-sm font-bold text-white pb-2 border-b border-zinc-800">產品專案管理 (在職學習與推進)</h3>
+          <div class="space-y-2">
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">專案管理流程熟悉 (2026 在職學習中)</span>
+              <span class="text-zinc-400">持續精進</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">跨部門溝通協同 (研發 / 測試 / 業務)</span>
+              <span class="text-zinc-400">外向善溝通</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">需求梳理與功能進度追蹤</span>
+              <span class="text-zinc-400">積極落實</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">問題排查與主動尋找解法</span>
+              <span class="text-zinc-400">核心特質</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">終端使用者回饋與痛點提煉</span>
+              <span class="text-zinc-400">熟練</span>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 space-y-4">
+          <h3 class="text-sm font-bold text-white pb-2 border-b border-zinc-800">人工智慧與研究實務 (AI & Research)</h3>
+          <div class="space-y-2">
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">生成式 AI 與 LLM 應用整合</span>
+              <span class="text-zinc-400">實務經驗</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">台英語AI學伴系統人機互動</span>
+              <span class="text-zinc-400">參與研發</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">Prompt Engineering 應用與調整</span>
+              <span class="text-zinc-400">熟悉</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">系統測試與校園場域教學驗證</span>
+              <span class="text-zinc-400">實務推廣</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">學術論文參與撰寫 (2 期刊 + 5 國際會議)</span>
+              <span class="text-zinc-400">共同作者</span>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="p-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 space-y-4">
+          <h3 class="text-sm font-bold text-white pb-2 border-b border-zinc-800">社群營運、語言能力與特質</h3>
+          <div class="space-y-2">
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">科技社群管理 (華為/榮耀/三星 20萬+ 人)</span>
+              <span class="text-zinc-400">近10年經驗</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">實體活動籌備、現場演說與主持</span>
+              <span class="text-zinc-400">外向擅長</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">語言能力：中文 · 英語 · 台語</span>
+              <span class="text-zinc-400">良好溝通</span>
+            </div>
+            
+            <div class="flex justify-between text-xs py-1.5 border-b border-zinc-800/40">
+              <span class="text-zinc-200 font-mono">個人核心特質：外向、善於溝通、解決問題</span>
+              <span class="text-zinc-400">個人優勢</span>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 border-t border-zinc-800/80 text-center space-y-4">
+      <h2 class="text-2xl font-bold text-white">聯絡方式 (Contact)</h2>
+      <p class="text-sm text-zinc-400">歡迎產品專案管理探討、AI 學伴應用或社群合作交流！</p>
+      <div class="flex flex-wrap justify-center gap-3 text-xs pt-2">
+        <a href="mailto:brady910108@gmail.com" class="px-5 py-2.5 font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors">
+          Email: brady910108@gmail.com
+        </a>
+        <a href="https://www.facebook.com/Chao.Cyuan.Yue/" target="_blank" class="px-4 py-2.5 font-medium border border-zinc-800 text-zinc-300 hover:bg-zinc-900 rounded-lg transition-colors">
+          Facebook
+        </a>
+        <a href="https://www.instagram.com/yue_cyuan/" target="_blank" class="px-4 py-2.5 font-medium border border-zinc-800 text-zinc-300 hover:bg-zinc-900 rounded-lg transition-colors">
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/in/chao-cyuan-yue" target="_blank" class="px-4 py-2.5 font-medium border border-zinc-800 text-zinc-300 hover:bg-zinc-900 rounded-lg transition-colors">
+          LinkedIn
+        </a>
+        <a href="https://github.com/ChaoCyuanYue" target="_blank" class="px-4 py-2.5 font-medium border border-zinc-800 text-zinc-300 hover:bg-zinc-900 rounded-lg transition-colors">
+          GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-xs text-zinc-500">
+    © 2026 岳朝泉 (Brady) (Chao-Cyuan Yue). 保留所有權利 · 託管於 GitHub Pages
+  </footer>
+</body>
+</html>
